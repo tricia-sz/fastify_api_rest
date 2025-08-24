@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix"
-    
   },
   "keywords": [],
   "author": "",
@@ -22,6 +20,8 @@
     "-": "^0.0.1",
     "D": "^1.0.0",
     "fastify": "^5.5.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
     "tsx": "^4.20.5"
   }
 }
